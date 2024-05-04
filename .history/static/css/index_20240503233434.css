@@ -9,9 +9,6 @@
     falta resolver
 }*/
 
-/*HEADER 
-============================= */
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -22,9 +19,8 @@
 }
 
 .logo img {
-  max-width: 6.25rem;
-  height: auto;
-}
+  max-width: 6.25rem; 
+  height: auto; 
 nav {
   display: flex;
 }
@@ -32,7 +28,7 @@ nav {
 nav a {
   text-decoration: none;
   color: #fff;
-  margin-left: 1.25rem;
+  margin-left: 1.25rem; 
   transition: color 0.3s ease;
 }
 
@@ -69,6 +65,3 @@ nav a:hover {
   font-weight: 10px;
   margin: 500px;
 }
-
-/*FOOTER  
-=============================*/

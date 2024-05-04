@@ -72,3 +72,56 @@ nav a:hover {
 
 /*FOOTER  
 =============================*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1; /* Ocupa el espacio disponible de manera equitativa */
+  margin-right: 20px; /* Espacio entre las secciones */
+}
+
+.footer-section:last-child {
+  margin-right: 0; /* Elimina el margen derecho en la última sección */
+}
+
+h3,
+h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  margin-top: 10px;
+}
+
+.icon {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.icons {
+  width: 30px; /* Ajusta el tamaño de los iconos según sea necesario */
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffcc00;
+}

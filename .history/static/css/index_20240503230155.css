@@ -1,0 +1,42 @@
+/* :root{ falta elegir variable de colores}*/
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* body{ 
+    font-family:.....
+    falta resolver
+}*/
+
+#seccion-con-fondo{
+    background-image:url("../imgs/drink-8462392_1280.jpg");
+    background-size: cover;
+    background-position:center;
+    text-align:center;
+    /* color tentativo, es conveniente usar variables de colores */
+    color:rgb(229, 44, 27);
+    height:100vh;
+}
+
+.titulo-subtit{
+    margin:0;
+    padding:100px;
+    text-align: left;
+    font-size: larger;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+}
+.icon{
+    width: 15px;
+    height: 15px;
+
+}
+.diseño{
+    font-size: 15px;
+    font-weight: 10px;
+    margin: 500px;
+}
+   

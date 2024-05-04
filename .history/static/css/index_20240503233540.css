@@ -9,9 +9,6 @@
     falta resolver
 }*/
 
-/*HEADER 
-============================= */
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -69,6 +66,3 @@ nav a:hover {
   font-weight: 10px;
   margin: 500px;
 }
-
-/*FOOTER  
-=============================*/

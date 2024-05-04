@@ -9,22 +9,20 @@
     falta resolver
 }*/
 
-/*HEADER 
-============================= */
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #333;
   color: #fff;
-  padding: 0.625rem 1.25rem;
+  padding: 10px 20px;
 }
 
 .logo img {
-  max-width: 6.25rem;
-  height: auto;
+  max-width: 100px; /* Ajusta el tamaño del logo según tu necesidad */
+  height: auto; /* Permite que la altura se ajuste automáticamente */
 }
+
 nav {
   display: flex;
 }
@@ -32,7 +30,7 @@ nav {
 nav a {
   text-decoration: none;
   color: #fff;
-  margin-left: 1.25rem;
+  margin-left: 20px; /* Espacio entre los enlaces */
   transition: color 0.3s ease;
 }
 
@@ -69,6 +67,3 @@ nav a:hover {
   font-weight: 10px;
   margin: 500px;
 }
-
-/*FOOTER  
-=============================*/
