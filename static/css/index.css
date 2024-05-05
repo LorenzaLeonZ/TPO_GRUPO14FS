@@ -46,31 +46,39 @@ nav a:hover {
   background-position: center;
   text-align: center;
   /* color tentativo, es conveniente usar variables de colores */
-  color: rgb(229, 44, 27);
+  color: rgb(243, 73, 11);
   height: 100vh;
 }
 
 .titulo-subtit {
   margin: 0;
-  padding: 100px;
+  padding: 6.15rem;
   text-align: left;
   font-size: larger;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+}
+
   /*FOOTER  
 =============================*/
-
+footer{
+  background-color: rgb(243, 112, 11);
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 2rem;
+  
 }
 .icons {
-  width: 30px;
-  height: 30px;
+  width: 2rem;
+  height: 2rem;
+  padding-inline:1rem;
 }
-.icon {
-  width: 15px;
-  height: 15px;
-}
-.diseño {
-  font-size: 15px;
-  font-weight: 10px;
-  margin: 500px;
+p {
+  font-size: 1rem;
+  font-weight: 0.5rem;
 }
 
 
