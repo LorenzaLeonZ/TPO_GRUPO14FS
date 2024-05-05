@@ -55,6 +55,9 @@ nav a:hover {
   padding: 100px;
   text-align: left;
   font-size: larger;
+  /*FOOTER  
+=============================*/
+
 }
 .icons {
   width: 30px;
@@ -70,5 +73,4 @@ nav a:hover {
   margin: 500px;
 }
 
-/*FOOTER  
-=============================*/
+
