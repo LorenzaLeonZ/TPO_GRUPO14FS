@@ -1,13 +1,23 @@
-/* :root{ falta elegir variable de colores}*/
+ 
+:root{
+  --color-primario: #ff4800;
+  --color-fondo-header: var(--color-primario); 
+  --color-texto-header: white;
+  --color-amarillo-body: rgba(237, 201, 40, 0.876);
+  --color-naranja-body: rgba(237, 138, 40, 0.876);
+  --color-logo-sombra:rgba(219, 128, 25, 0.5);
+}*/
 
 * {
   margin: 0;
   padding: 0;
 }
-/* body{ 
-    font-family:.....
-    falta resolver
-}*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background:linear linear-gradient(to right,var(--color-amarillo-body), var(--color-naranja-body),var(--color-amarillo-body));
+
+}
 
 /*HEADER 
 ============================= */
@@ -65,16 +75,17 @@ nav a:hover {
   /*FOOTER  
 =============================*/
 footer{
-  background-color: rgb(243, 112, 11);
+  background-color: rgba(243,73, 11);
   text-align: center;
   margin-top: 1rem;
-  padding-top: 2rem;
-  
+  padding-top: 1rem;
+  padding-bottom:0.3rem; 
 }
 .icons {
   width: 2rem;
   height: 2rem;
-  padding-inline:1rem;
+  padding-inline:2rem;
+  padding-bottom: 0.1rem;
 }
 p {
   font-size: 1rem;
