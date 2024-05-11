@@ -1,7 +1,10 @@
+* {
+    margin: 10;
+    padding: 10;
+  }
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f0f0f0;
     
 }
@@ -12,6 +15,14 @@ h1{
     font-style: normal;
     color:blue;
     text-align: center;
+  }
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(105, 16, 165);
+    text-align: left
   }
 
 .gallery-container {
@@ -46,6 +57,7 @@ h1{
 .image:hover {
     transform: scale(1.1); /* Efecto de escala al hacer hover */
 }
+
 
 @media (max-width: 600px) {
     .image {
