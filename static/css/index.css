@@ -29,15 +29,19 @@ body {
   background-color: #333;
   color: #fff;
   padding: 0.625rem 1.25rem;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow:2px 2px 4px rgba(243, 179, 4, 0.5); /* Aplica sombra al texto */
   font-size: 18px;
   font-weight: 300;
 }
 
+
 .logo img {
-  max-width: 6.25rem;
+  max-width: 8rem;   
   height: auto;
 }
+
+
 nav {
   display: flex;
 }
@@ -59,7 +63,7 @@ nav a:hover {
   background-position: center;
   text-align: center;
   /* color tentativo, es conveniente usar variables de colores */
-  color: rgb(243, 73, 11);
+  color: rgb(63, 63, 63);
   height: 100vh;
 }
 
@@ -78,21 +82,93 @@ nav a:hover {
   /*FOOTER  
 =============================*/
 footer{
-  background-color: rgba(243,73, 11);
   text-align: center;
   margin-top: 1rem;
   padding-top: 1rem;
   padding-bottom:0.3rem; 
+  background-color: #333;
+  color: #f5f1f1;
+  padding: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .icons {
   width: 2rem;
   height: 2rem;
-  padding-inline:2rem;
+  padding-inline:1rem;
   padding-bottom: 0.1rem;
 }
+
 p {
   font-size: 1rem;
   font-weight: 0.5rem;
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Alinear elementos al inicio de cada columna */
+  text-align: left;
+  
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+  text-shadow:2px 2px 4px rgba(243, 179, 4, 0.5); /* Aplica sombra al texto */
+}
+
+
+a:hover {
+  color: #f3f70a; /* Color rojo al pasar el mouse sobre el enlace */
+}
+
+
+
+
+.column {
+  flex: 1; /* Que cada columna ocupe el mismo espacio */
+  margin-right: 10px; /* Espacio entre columnas */
+}
+
+.column:last-child {
+  margin-right: 0; /* Eliminar margen derecho de la última columna */
+}
+
+/* Estilos para el contenido de cada columna */
+.column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.column p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.column ul {
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+
+.column ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease; /* Transición de color al hacer hover */
+}
+
+.column ul li a:hover {
+  color: #0c0c0c; /* Cambia el color al hacer hover */
 }
 
 
