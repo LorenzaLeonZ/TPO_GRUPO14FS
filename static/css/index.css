@@ -44,6 +44,7 @@ body {
 
 nav {
   display: flex;
+  flex-wrap:wrap ;
 }
 
 nav a {
@@ -107,6 +108,7 @@ p {
 
 .footer-content {
   display: flex;
+  flex-wrap:wrap;
   justify-content: space-between;
   align-items: flex-start; /* Alinear elementos al inicio de cada columna */
   text-align: left;
@@ -124,8 +126,6 @@ a {
 a:hover {
   color: #f3f70a; /* Color rojo al pasar el mouse sobre el enlace */
 }
-
-
 
 
 .column {
@@ -172,3 +172,101 @@ a:hover {
 }
 
 
+.map-container {
+  position: relative; /* Asegura que los elementos posicionados dentro se ajusten correctamente */
+  overflow: hidden; /* Evita el desbordamiento de los elementos dentro del contenedor */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  height: 0; /* Inicialmente establece la altura en 0 */
+  padding-bottom: 56.25%; /* Proporción de aspecto 16:9 (dividir 9 entre 16 y multiplicar por 100 para obtener el porcentaje) */
+}
+
+.map-container iframe {
+  position: absolute; /* Coloca el iframe de manera absoluta dentro del contenedor */
+  top: 0; /* Alinea el iframe en la parte superior del contenedor */
+  left: 0; /* Alinea el iframe en el borde izquierdo del contenedor */
+  width: 100%; /* Asegura que el iframe ocupe todo el ancho disponible del contenedor */
+  height: 100%; /* Asegura que el iframe ocupe toda la altura disponible del contenedor */
+  border: 0; /* Elimina el borde del iframe */
+  border-radius: 5%; /* Opcional: agrega bordes redondeados al iframe */
+}
+
+
+/* Media queries para hacer el diseño responsive */
+
+/* Estilos para dispositivos móviles (celular) */
+@media (max-width: 600px) {
+  header {
+      flex-direction: column;
+      text-align: center;
+      flex-wrap: wrap;
+  }
+
+  nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+  }
+ 
+  nav a {
+      display: block;
+      margin: 0.5em 0;
+      flex-wrap: wrap;
+  }
+
+  .image {
+      flex: 1 1 100%;
+  }
+
+  .column {
+      flex: 1 1 100%;
+  }
+
+   .footer-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .footer-content .column {
+      width: 100%;
+      margin: 0.5em 0;
+  } 
+
+}
+
+/* Estilos para tabletas */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .image {
+      flex: 1 1 calc(50% - 1em);
+  }
+
+  .column {
+      flex: 1 1 45%;
+  }
+
+  .footer-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .footer-content .column {
+      width: 100%;
+      margin: 0.5em 0;
+  } 
+
+
+}
+
+/* Estilos para PC escritorio */
+@media (min-width: 1025px) {
+  .image {
+      flex: 1 1 calc(20%);
+      padding: 10px;
+  }
+
+  .column {
+      flex: 1 1 30%;
+  }
+
+}
