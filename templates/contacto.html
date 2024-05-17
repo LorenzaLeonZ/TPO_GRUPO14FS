@@ -20,7 +20,7 @@
       </nav>
   </header>
     <main>
-      <section>
+      <section id="formulario">
         <h1>¿Necesitas ayuda para organizar tu viaje?</h1>
         <h2>Completá el formulario y nos ponemos en contacto con vos.</h2>
         <form action="">
@@ -35,7 +35,7 @@
             </div>
             <br />
             <div>
-              <label for="apellido">Apellido</label>
+              <label for="apellido">Apellido:</label>
               <input type="text" name="surname" id="apellido"maxlength="20"placeholder="Ingrese su apellido..."required />
             </div>
             <br />
@@ -73,6 +73,7 @@
                 <option value="persona">más de 2 personas</option>
               </select>
             </div>
+            <br>
             <div>
               <p>Destino/s de interés:</p>
               <input type="checkbox"name="paises"
@@ -95,6 +96,7 @@
               <label for="otrospaises">Otro</label>
             </div>
             <br>
+            <br>
             <div>
               <label for="file">Envie archivo con itinerarios deseados:</label>
               <input type="file" name="file" id="file">
@@ -102,8 +104,8 @@
             <br>
           </fieldset>
           <br>
-          <div id="mensaj">
-            <label for="mensaje">Mensaje:</label>
+          <div id="mns">
+            <label for="mensaje"><b>Mensaje:</b></label>
             <textarea id="mensaje" name="mensaje" id="mensaje"cols="30"rows="10"
             maxlength="200"placeholder="Escriba su mensaje..."required ></textarea>
           </div>
@@ -113,7 +115,8 @@
           </div>
           
           <div>
-            <input type="reset" value="Borrar" />
+             <input type="reset" value="Borrar" />  
+            
           </div>
         </form>
       </section>
