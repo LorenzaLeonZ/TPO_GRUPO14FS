@@ -86,7 +86,7 @@ footer{
   margin-top: 1rem;
   padding-top: 1rem;
   padding-bottom:0.3rem; 
-  background-color: #333;
+  background-color: #333; 
   color: #f5f1f1;
   padding: 20px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -95,7 +95,7 @@ footer{
 .icons {
   width: 2rem;
   height: 2rem;
-  padding-inline:1rem;
+  padding-inline:0.1rem;
   padding-bottom: 0.1rem;
 }
 
