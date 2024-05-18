@@ -12,9 +12,9 @@ body {
   margin-left: 15rem;
   margin-bottom: 1.5rem;
   padding:1rem;
-  border: 3px solid #ccc; /* Agrega el borde */
+  border: 1px solid #3c0134; /* Agrega el borde */
   border-radius: 10px; /* Hace que las esquinas del borde sean redondeadas */
-  background-color: #7ff0a3;
+  background-color: #b964c0;
   background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
 }
 
@@ -61,7 +61,7 @@ input[type="reset"] {
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-    background-color: #26da44;
+    background-color: #38ef56;
     color: #ffffff;
 }
 
