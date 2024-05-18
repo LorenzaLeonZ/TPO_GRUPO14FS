@@ -27,6 +27,7 @@ h2{
 
 .gallery-container {
     display: flex;
+    height: auto;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
@@ -40,6 +41,7 @@ h2{
 
 .image {
     width: calc(25% - 20px); /* Ancho de cada imagen (25% del contenedor menos el espacio entre imágenes) */
+    height: auto;
     margin-bottom: 20px; /* Espacio inferior entre imágenes */
     overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
     border-radius: 8px; /* Bordes redondeados */
@@ -47,29 +49,104 @@ h2{
     transition: transform 0.3s ease; /* Transición al hacer hover */
     text-align: center;
     animation: fade-in 0.5s ease forwards;
-    
 }
 
 .image img {
     width: 100%; /* Para que la imagen llene el contenedor */
     height: auto; /* Mantener la proporción de la imagen */
     display: block; /* Eliminar espacio extra debajo de la imagen */
+    border-radius: 8px; /* Bordes redondeados */
 }
+
 
 .image:hover {  /* Efectos al hacer hover */
     transform: rotate(5deg) scale(1.1);
 }
 
 
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Media queries para hacer el diseño responsive */
+
+/* Estilos para dispositivos móviles (celular) */
 @media (max-width: 600px) {
-    .image {
-        width: calc(50% - 20px); /* Dos imágenes por fila en dispositivos más pequeños */
+    header {
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
     }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+   
+    nav a {
+        display: block;
+        margin: 0.5em 0;
+        flex-wrap: wrap;
+    }
+
+    .image {
+        flex: 1 1 100%;
+    }
+
+    .column {
+        flex: 1 1 100%;
+    }
+
+     .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-content .column {
+        width: 100%;
+        margin: 0.5em 0;
+    } 
+
 }
 
-@media (max-width: 400px) {
+/* Estilos para tabletas */
+@media (min-width: 601px) and (max-width: 1024px) {
     .image {
-        width: 100%; /* Una imagen por fila en dispositivos muy pequeños */
+        flex: 1 1 calc(50% - 1em);
     }
+
+    .column {
+        flex: 1 1 45%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-content .column {
+        width: 100%;
+        margin: 0.5em 0;
+    } 
+
+
 }
 
+/* Estilos para PC escritorio */
+@media (min-width: 1025px) {
+    .image {
+        flex: 1 1 calc(20%);
+        padding: 10px;
+    }
+
+    .column {
+        flex: 1 1 30%;
+    }
+
+}
