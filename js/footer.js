@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
             <!-- Columna 1 footer -->
             <div class="column">
                 <h3>Accesos</h3>
-                <ul><a href="/index.html">Inicio</a></ul>
-                <ul><a href="/templates/destinos.html">Destinos</a></ul>
-                <ul><a href="/templates/galería.html">Galeria</a></ul>
-                <ul><a href="/templates/contacto.html">Contacto</a></ul>
+                <ul><a href="./index.html">Inicio</a></ul>
+                <ul><a href="./templates/destinos.html">Destinos</a></ul>
+                <ul><a href="./templates/galería.html">Galeria</a></ul>
+                <ul><a href="./templates/contacto.html">Contacto</a></ul>
                 <br>
                 <br>
                 <h3>Seguinos en</h3>
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <dd>De 9 a 12 hs y de 16 a 20 hs.</dd>
                         <br>
                         <dt>
-                          <img class="icon" src="/static/imgs/llamada-telefonica_blanco.png" alt=""/>
+                          <img class="icon" src="../static/imgs/llamada-telefonica_blanco.png" alt=""/>
                           Teléfonos:
                         </dt>
                         <dd>(+54.11) 566.7184</dd>
