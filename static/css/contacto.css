@@ -63,12 +63,19 @@ input[type="reset"]:hover {
 
 /* Estilos para el label */
 #mns label {
+<<<<<<< HEAD
   position:relative; /* Establecemos posición relativa */
   margin: 0 auto;
   padding:0 1.3rem;
   transform:translateX(-50%); /*Lo ajustamos al centro */
   border-radius: 5rem
   ;
+=======
+  position:relative /* Establecemos posición relativa */ /*REVISAR SI TRABAJAR CON LAS PROPIEDADES O NO, ver cómo afecta al título de mensaje cuando se le agrega el ;*/
+  top:30px; /* Colocamos el label 30px arriba del contenedor */
+  left:50%; /* Lo centramos horizontalmente */
+  transform: translateX(-50%); /* Lo ajustamos al centro */
+>>>>>>> d9cd255d7bb651905b63a3a66b8037334cb00854
 }
 #mns{
   font-size: 20px;
