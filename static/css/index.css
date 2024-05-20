@@ -6,7 +6,7 @@
   --color-naranja-body: rgba(237, 138, 40, 0.876);
   --color-logo-sombra: rgba(219, 128, 25, 0.5);
 }
-*/ * {
+* {
   margin: 0;
   padding: 0;
 }
