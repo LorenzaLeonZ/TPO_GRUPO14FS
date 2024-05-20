@@ -1,8 +1,9 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/static/imgs/logonuevo_1.jpeg" type="image/png" />
     <link rel="stylesheet" href="../static/css/index.css">
     <link rel="stylesheet" href="../static/css/contacto.css" />
     <title>Contacto | Catorce Viajes</title>
@@ -10,7 +11,7 @@
   <body>
     <header class="header"> 
       <div class="logo">
-        <img src="/static/imgs/logo.jpg" alt="logo-catorce"/> 
+      <img src="/static/imgs/logonuevo_1.jpeg" alt="logo-catorce"/> 
       </div>
       <nav>
       <a href="../index.html">Inicio</a>
@@ -18,11 +19,13 @@
       <a href="galería.html">Galería</a>
       <a href="contacto.html">Contacto</a>
       </nav>
-  </header>
+   </header>
     <main>
-      <section id="formulario">
-        <h1>¿Necesitas ayuda para organizar tu viaje?</h1>
-        <h2>Completá el formulario y nos ponemos en contacto con vos.</h2>
+      <section class="contenedor">
+        <div><h1>¿Necesitas ayuda para organizar tu viaje?</h1>
+          <h2><i>Completá el formulario y nos ponemos en contacto con vos.</i></h2>
+        </div> 
+        <section class="formulario">
         <form action="">
           <fieldset>
             <legend>
@@ -38,7 +41,7 @@
               <label for="apellido">Apellido:</label>
               <input type="text" name="surname" id="apellido"maxlength="20"placeholder="Ingrese su apellido..."required />
             </div>
-            <br />
+            <br>
             <div>
               <label for="telefono">Teléfono:</label>
               <input type="tel" name="telefono" id="telefono" placeholder="Ingrese su número..."required />
@@ -46,7 +49,7 @@
             <br />
             <div>
               <label for="correo">Email:</label>
-              <input type="correo" name="correo" id="correo" placeholder="Ingrese su mail..."required />
+              <input type="correo" name="correo" id="correo"maxlength="30" placeholder="Ingrese su mail..."required />
             </div>
             <br />
           </fieldset>
@@ -113,23 +116,90 @@
           <div>
             <input type="submit" value="Enviar" />
           </div>
-          
           <div>
              <input type="reset" value="Borrar" />  
-            
           </div>
         </form>
+        </section>  
       </section>
     </main>
-    <!-- Pie de página -->
   
     <footer> 
-      <section>
-        <img class="icons" src="../static/imgs/gorjeo.png" alt="twitter" color="white"/>
-        <img class="icons" src="../static/imgs/facebook.png" alt="facebook" color="white"/>
-        <img class="icons" src="../static/imgs/instagram.png" alt="instagram"color= "white" />
-        <p><strong>Diseño web desarrollado por GRUPO14FS</strong></p>
-      </section>
-      </footer>
-  </body>
+        <div class="footer-content">
+           <!-- Columna 1 footer -->
+           <div class="column">
+             <h3>Accesos</h3>
+             <ul><a href="/index.html">Inicio</a></ul>
+             <ul><a href="/templates/destinos.html">Destinos</a></ul>
+             <ul><a href="/templates/galería.html">Galeria</a></ul>
+             <ul><a href="/templates/contacto.html">Contacto</a></ul>
+             <br>
+             <br>
+             <h3>Seguinos en</h3>
+             <br>
+             <img class="icons" src="../static/imgs/gorjeo_blanco.png" alt="twitter" color="white"/>
+             <img class="icons" src="../static/imgs/facebook_blanco.png" alt="facebook" color="white"/>
+             <img class="icons" src="../static/imgs/instagram_blanco.png" alt="instagram"color= "white" />
+             
+           </div>
+                <!-- Columna 2 footer -->
+                <div class="column">
+                    <h3>Contacto</h3>
+                     <section>
+                        <div>
+                          <dl>
+                            <dt>
+                              <img class="icon" src="../static/imgs/reloj_blanco.png" alt="" />
+                               Horario de atención:
+                            </dt>
+                            <dd>Lunes a Sábados</dd>
+                            <dd>De 9 a 12 hs y de 16 a 20 hs.</dd>
+                            <br>
+                            <dt>
+                              <img class="icon" src="/static/imgs/llamada-telefonica_blanco.png" alt=""/>
+                              Teléfonos:
+                            </dt>
+                            <dd>(+54.11) 566.7184</dd>
+                            <dd>(+54.11) 566.4255</dd>
+                            <br>
+                            <dt>
+                              <img class="icon" src="../static/imgs/correo-electronico_blanco.png"alt=""/>
+                              Dirección de e-mail:
+                            </dt>
+                            <dd>catorce_viajes@gmail.com</dd>
+                          </dl>
+                        </div>
+                      </section>
+                </div>
+                <br>
+
+                <!-- Columna 3 footer -->
+                <div class="column">
+                    <section>
+                        <article>
+                        <h3>Donde estamos:</h3>
+                        <div class="map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.989384528038!2d-58.437490025317416!3d-34.57913515619849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb593e76100f7%3A0x63591629e2c44a2b!2sSoler%205820%2C%20C1425BYL%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1714589036380!5m2!1ses!2sar"
+                                width="300"
+                                height="300"
+                                style="border: 0; border-radius: 5%"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                        </article>
+                      </section>
+                </div>
+        </div>
+
+        <section>
+            <br>
+            <p><strong>Diseño web desarrollado por GRUPO14FS</strong></p>
+             
+        </section>              
+   </footer>
+ 
+</body>
 </html>
