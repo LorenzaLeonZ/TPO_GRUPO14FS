@@ -75,8 +75,15 @@ function generateCards(destinos) {
                     ${iconsHtml}
                 </div>
                 <div class="offer-card">
-                    <div class="date-card">${e.departure}</div>
-                    <div class="price-card">${e.price}</div>
+                    <div class="date-card">
+                        <span>Salida:</span>
+                        <time>${e.departure}</time>
+                    </div>
+
+                    <div class="price-card">
+                        <span>Precio:</span>
+                        <data value=${e.price}>$${e.price}</data>
+                    </div>
                 </div>
                 <div class="button-card">
                     <button>Ver Detalles</button>

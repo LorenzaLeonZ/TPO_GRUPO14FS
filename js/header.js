@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="../templates/destinos.html">Destinos</a>
             <a href="../templates/galería.html">Galería</a>
             <a href="../templates/contacto.html">Contacto</a>
-        </nav>`
+        </nav>`;
     }
 
     const headerElement = document.querySelector("header");
