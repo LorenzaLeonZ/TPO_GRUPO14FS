@@ -3,7 +3,7 @@
     padding: 10;
 }
 
-.title-destinos{
+.title-destinos h2{
     text-align: center;
     margin:15px
 }
@@ -16,8 +16,8 @@ main{
 }
 .cards-container{
     display: grid;
-    width: 70%;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 20px;
     margin: 0 auto;
     
@@ -26,8 +26,8 @@ main{
 .card{
     display: grid;
     place-items: center;
-    grid-template-rows: auto;
-    height: 400px;
+    grid-template-rows: 1fr 1fr;
+    height: 460px;
     background-color: rgb(17, 201, 69);
     border-radius: 10px;
     box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.5);
@@ -35,13 +35,23 @@ main{
 
 .img-container{
     display: flex;
+    position: relative;
     justify-content: center;
-    align-items: flex-start;
+    align-items:flex-start;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
-
+.title-card{
+    position:absolute;
+    top: 10px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 85%;
+    text-align: center;
+    text-shadow: 0 0 3px white;
+}
 .img-card{
     display: flex;
     justify-content: center;
@@ -52,17 +62,20 @@ main{
     border-radius:10px 10px 0 0; 
     object-fit: cover;
 }
-/* .img-card img{
-    width: 100%;
-    object-fit: contain;
+
+.info-card{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
     
-} */
+}
 .icon-container-card{
     display: flex;
 }
 .icon-container-card img{
-    width: 20px;   
-    margin-left: 5px;
+    width: 30px;   
+    margin:0 5px 0 5px;
 }
 
 .button-card{
@@ -75,9 +88,15 @@ main{
 
 .button-card button{
     width: 100%;
-    height: 20px;
-    margin-bottom: 3px;
-    border-radius: 5px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 8px;
     font-size: 0.6rem;
     border:none;
+}
+
+
+/*------------------MEDIA QUERYS--------------------*/
+@media (max-width: 600px) {
+  
 }

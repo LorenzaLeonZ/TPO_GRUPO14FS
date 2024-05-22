@@ -65,7 +65,9 @@ function generateCards(destinos) {
         }
         cards += `
         <div class="card">
+            
             <div class="img-container">
+                <h4 class=title-card>${e.name}</h4>
                 <img class="img-card" src="${e.image}" alt="">
             </div>
             <div class="info-card">

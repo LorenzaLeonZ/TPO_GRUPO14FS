@@ -1,7 +1,7 @@
 let dataDestinosNac = [
     {
         "id": 1,
-        "name": "San Carlos de Bariloche",
+        "name": "San Carlos de Bariloche - 5 noches",
         "price": 550000,
         "departure": "15/09/2024",
         "duration": 6,
@@ -15,7 +15,7 @@ let dataDestinosNac = [
     },
     {
         "id": 2,
-        "name": "Ciudad de Mendoza",
+        "name": "Ciudad de Mendoza - 4 Noches",
         "price": 350000,
         "departure": "11/10/2024",
         "duration": 5,
@@ -28,7 +28,7 @@ let dataDestinosNac = [
     },
     {
         "id": 3,
-        "name": "Cataratas del Iguazú",
+        "name": "Cataratas del Iguazú - 4 Noches",
         "price": 400000,
         "departure": "05/10/2024",
         "duration": 4,
@@ -41,7 +41,7 @@ let dataDestinosNac = [
     },
     {
         "id": 4,
-        "name": "Cerro 7 colores, Jujuy",
+        "name": "Cerro 7 colores Jujuy - 4 Noches",
         "price": 350000,
         "departure": "27/05/2024",
         "duration": 5,
@@ -56,7 +56,7 @@ let dataDestinosNac = [
 let dataDestinosInter = [
     {
         "id": 5,
-        "name": "Machu Picchu, Perú",
+        "name": "Machu Picchu Perú - 8 Noches",
         "price": 1100000,
         "departure": "20/11/2024",
         "duration": 11,
@@ -70,7 +70,7 @@ let dataDestinosInter = [
     },
     {
         "id": 6,
-        "name": "Búzios, Brasil",
+        "name": "Búzios Brasil - 7 Noches",
         "price": 850000,
         "departure": "06/12/2024",
         "duration": 8,
@@ -83,8 +83,8 @@ let dataDestinosInter = [
     },
     {
         "id": 7,
-        "name": "Montevideo, Uruguay",
-        "price": 300000,
+        "name": "Montevideo Uruguay- 5 Noches",
+        "price": 350000,
         "departure": "18/08/2024",
         "duration": 4,
         "image": "../static/imgs/destinos/montevideo.jpg",
@@ -95,7 +95,7 @@ let dataDestinosInter = [
     },
     {
         "id": 8,
-        "name": "Santiago de Chile, Chile",
+        "name": "Santiago de Chile - 5 Noches",
         "price": 600000,
         "departure": "01/11/2024",
         "duration": 4,
