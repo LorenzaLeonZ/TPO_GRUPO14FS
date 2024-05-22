@@ -86,8 +86,8 @@ function generateCards(destinos) {
                     </div>
                 </div>
                 <div class="button-card">
-                    <button>Ver Detalles</button>
-                    <button>RESERVÁ AHORA</button>
+                    <button class="btn-detalles">Ver Detalles</button>
+                    <button class="btn-reservar">RESERVÁ AHORA</button>
                 </div>
             </div>
         </div>`;
