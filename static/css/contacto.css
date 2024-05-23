@@ -1,87 +1,141 @@
 
-.formulario{
-  padding-left: 15rem;
-  display: flex;
-  border: #18011e;
-  border-radius: 5rem;
+root {
+  --color-blanco:#ffffff;
+  --color-negro:#0a0909;
+  --color-morado: #54436b;
+  --color-verde:#50cb93;
+  --color-verde-pálido:#71efa3;
+  --color-verde-luz: #acffad;
+}
 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #dfdcdc;
+  box-sizing: border-box;
+  background-image:url(../imgs/passport-2714675_1280.jpg);
+}
+
+#formulario{
+  color:#54436b;
+  font-size: 0.8rem;
+  border-radius:10px;
+  padding:50px;
+  width:90%;
+  max-width:500px;
+  margin: auto;
+  background-color:#fbf7f7;
+  box-shadow: 0px 0px 20px #54436b;
 }
 
 h1 {
   color: #0a0909;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   text-align: center;
-  margin-right: 20rem;
+  padding-right:6.25rem;
   margin-top: 2rem;
+  background-color: #ffffff;
 }
 
 h2 {
-  color: #0a0909;
+  color:#50cb93;
   font-size: 1.3rem;
-  padding-left: 0.3rem;
+  padding-left: 0.1rem;
   text-align: center;
-  padding-right: 12rem;
+  padding-right: 1.5rem;
+  margin-bottom:3rem;
+  font-weight:bold;
+  background-color: #ffffff;
 }
 
-/* Estilos para los campos de entrada */
+h4{
+  font-size:0.8rem;
+  font-variant: small-caps;
+  font: weight 100px;
+  color:#50cb93;
+}
+
 input[type="text"],
 input[type="tel"],
 input[type="email"],
+input[type="correo"],
 textarea {
     width: calc(100% - 40px); /* Ancho máximo igual al 100% del contenedor menos 20px de margen */
     max-width: 750px; /* Ancho máximo absoluto*/
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #18011e;
+    border: 1.5px solid #50cb93;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 0.8rem;
     box-sizing: border-box; /* Para incluir el padding y el borde en el cálculo del ancho */
-    background-color: #e4e1e5;
+    background-color: #faf8fc;
+    align-items: center;
+}
+#nombre{
+   margin-top:5px;
+}
+#apellido{
+  margin-top:5px;
+}
+#telefono{
+  margin-top:5px;
+}
+#correo{
+  margin-top:5px;
+}
+fieldset{
+  padding-left:0.5rem;
+  margin-left:0.1rem;
+  margin-right:0.1rem;
+  border-radius: 5px;
 }
 
 input[type="submit"],
 input[type="reset"] {
     width: 100%; /* Hace que los botones ocupen todo el ancho del contenedor */
-    background-color: #ea69f3;
-    color:  #0a0909;
+    background-color: #acffad;
     border:none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
+    outline:none;
+    padding:10px 20px;
+    font-size:1rem;
+    cursor:pointer;
+    border-radius:0.3rem;
     margin-top: 10px; /* Añade un espacio superior para separar los botones*/
     margin-bottom: 5px;
+    margin-bottom: 5px;
+    border:border solid #ffffff;
+    cursor:pointer;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
 }
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-    background-color: #38ef56;
+    background-color: #50cb93;
     color: #ffffff;
     margin-bottom: 20px;
 }
-
-/* Estilos para el label */
-#mns label {
-<<<<<<< HEAD
-  position:relative; /* Establecemos posición relativa */
-  margin: 0 auto;
-  padding:0 1.3rem;
-  transform:translateX(-50%); /*Lo ajustamos al centro */
-  border-radius: 5rem
-  ;
-=======
-  position:relative /* Establecemos posición relativa */ /*REVISAR SI TRABAJAR CON LAS PROPIEDADES O NO, ver cómo afecta al título de mensaje cuando se le agrega el ;*/
-  top:30px; /* Colocamos el label 30px arriba del contenedor */
-  left:50%; /* Lo centramos horizontalmente */
-  transform: translateX(-50%); /* Lo ajustamos al centro */
->>>>>>> d9cd255d7bb651905b63a3a66b8037334cb00854
+input[type="file"]:hover{
+  background-color:#acffad;
+  border-color:#50cb93 ;
 }
+
 #mns{
-  font-size: 20px;
-  color:#0a0909;
+  font-size: 16px;
+  color:#54436b;
   margin-right: 8rem;
-  
+  position:relative;
+  font-weight: bold; 
+}
+
+#mns textarea{
+  margin-top: 1.2rem;
+  border-radius:3px ;
+  border-color:#50cb93;
+  max-width: 500px;
+  max-height: 300px;
+  margin-top:0.5rem ;
 }
 
  /*FOOTER  
