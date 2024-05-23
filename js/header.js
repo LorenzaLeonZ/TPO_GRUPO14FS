@@ -2,8 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
     function getHeader() {
         return `
         <div class="logo">
-            <img src="../static/imgs/logonuevo_1.jpeg" alt="logo-catorce" />
-
+        <a href="../index.html">
+            <img src="../static/imgs/logonuevo_1-sin-fondo.png" alt="logo-catorce" />
+        </a>
         </div>
         <nav>
             <a href="../index.html">Inicio</a>
