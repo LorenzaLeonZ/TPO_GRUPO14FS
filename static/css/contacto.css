@@ -12,7 +12,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   background-color: #dfdcdc;
   box-sizing: border-box;
-  background-image:url(../imgs/passport-2714675_1280.jpg);
+
 }
 
 #formulario{
@@ -25,6 +25,7 @@ body{
   margin: auto;
   background-color:#fbf7f7;
   box-shadow: 0px 0px 20px #54436b;
+  background-image:url(../imgs/passport-2714675_1280.jpg);
 }
 
 h1 {
