@@ -153,139 +153,118 @@ nav a:hover {
 /*Informacion Extra en el index */
 
 #seccion-somos {
-  background-color: rgb(131, 133, 133);
-  background-size: auto;
-  background-position: center;
-  text-align: justify;
-  color: rgb(253, 251, 251);
-  height: auto;
-  padding: 30px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-}
-
-.texto-somos {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: white;
+  align-items: center;
   text-align: center;
-  margin: 10px; /* Añadir un margen de 10 píxeles en todos los lados */
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
 }
-
-.titulo-subtit {
-  margin: 0;
-  padding: 6.15rem;
-  text-align: left;
-  font-size: larger;
-}
-
-.icon {
-  width: 1rem;
-  height: 1rem;
-}
-
-/*Secciones y promos
-=============================*/
 
 .promo-section {
-  background-color: #f2f2f2;
-  padding: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-}
-
-.promo-title {
-  color: #333;
-  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
 }
 
 .promo-form {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.promo-form input[type="email"] {
-  padding: 5px;
-  margin-right: 10px;
+.promo-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
 }
 
 .promo-button {
-  padding: 5px 10px;
-  background-color: #333;
-  color: #fff;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
   border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.promo-button:hover {
+  background-color: #0056b3;
 }
 
 .offers-section {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
   padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
 }
 
 .promo-list {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-between;
 }
 
 .promo-list li {
-  flex-basis: calc(33.33% - 20px);
-  margin: 10px;
+  margin: 5px 0;
 }
 
 .promo-link {
   text-decoration: none;
-  color: #333;
-  padding: 10px;
-  display: block;
-  text-align: center;
-  background-color: #f2f2f2;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  transition: background-color 0.3s;
+  color: #007bff;
 }
 
 .promo-link:hover {
-  background-color: #ddd; /* Optional: Change background on hover */
-}
-
-.sales-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.sales-link {
-  text-decoration: none;
-  color: #333;
-  padding: 5px 0;
-  display: block;
+  text-decoration: underline;
 }
 
 .remorse-section {
-  background-color: #f2f2f2;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
 }
 
 .remorse-button {
-  padding: 5px 10px;
-  background-color: #333;
-  color: #fff;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
   border: none;
-  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remorse-button:hover {
+  background-color: #c82333;
 }
 
 .remorse-text {
-  color: #333;
+  margin-top: 10px;
+  color: #6c757d;
 }
 
 /*FOOTER  
