@@ -5,11 +5,10 @@
   --color-verde:#033503;
   --color-naranja:#af3403;
 }
-  
-  * {
+ *{
     margin: 0;
     padding: 0;
-  }
+  } 
   
 body{
   font-family: Arial, Helvetica, sans-serif;
@@ -148,104 +147,3 @@ input[type="file"]:hover{
  
 }
 
- /*FOOTER  
-=============================*/
-
-footer {
-  background-color: rgb(20, 19, 19);
-  text-align: center;
-  padding: 1.5rem 1.5rem 0.8rem 1.5rem; /* Agregar un poco de espacio alrededor del contenido */
-}
-
-.icons {
-  width: 2rem;
-  height: 2rem;
-  margin: 0 1.5px; /* Espacio entre los íconos */
-}
-
-p {
-  font-size: 1rem;
-  font-weight: 0.5rem;
-} 
-
-
-/* Medias queries para header y footer-Falta media queries para main */
-
-/* Para dispositivos móviles (celular) */
-
-@media (max-width: 600px) {
-  header {
-      flex-direction: column;
-      text-align: center;
-      flex-wrap: wrap;
-  }
-
-  nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1em;
-  }
- 
-  nav a {
-      display: block;
-      margin: 0.5em 0;
-      flex-wrap: wrap;
-  }
-   .column {
-    flex: 1 1 100%;
-  }
-
-   .footer-content {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-  }
-
-  .footer-content .column {
-      width: 100%;
-      margin: 0.5em 0;
-  } 
-  .formulario{
-    width: 90%;
-  }
-  h1{
-    padding-left: 2rem;
-  }
-
-}
-
-/* Para tabletas */
-@media (min-width: 601px) and (max-width: 1024px) {
-  
-  .footer-content {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-  }
-
-  .footer-content .column {
-      width: 100%;
-      margin: 0.5em 0;
-  } 
-  .formulario{
-    width: 70%;
-  }
-h1{
-  padding-left: 4rem ;
-}
-
-}
-
-/*Para PC escritorio */
-@media (min-width: 1025px) {
-  .column {
-      flex: 1 1 30%;
-  }
-  .formulario{
-    width: 50%;
-  }
-  h1{
-    padding-left: 6rem;
-  }
-
-}
