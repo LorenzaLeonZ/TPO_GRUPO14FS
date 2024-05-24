@@ -120,13 +120,11 @@ nav a:hover {
 }
 
 .texto-somos{
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: white;
-  text-align: left;
-  
-
+  text-align: left
 }
 
 .titulo-subtit {
