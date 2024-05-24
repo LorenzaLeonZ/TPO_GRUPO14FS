@@ -110,21 +110,21 @@ nav a:hover {
 
 #seccion-somos {
   background-color: rgb(131, 133, 133);
-  background-size:auto;
+  background-size: auto;
   background-position: center;
-  text-align:left;
-  color: rgb(63, 63, 63);
-  height: 100vh;
-  padding: 20px;
-  
+  text-align:justify;
+  color: rgb(253, 251, 251);
+  height: auto;
+  padding: 30px
 }
 
-.texto-somos{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+.texto-somos {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: white;
-  text-align: left
+  text-align: left;
+  margin: 10px; /* Añadir un margen de 10 píxeles en todos los lados */
 }
 
 .titulo-subtit {
