@@ -6,7 +6,13 @@ document.addEventListener("DOMContentLoaded", function () {
             <img src="../static/imgs/logonuevo_1-sin-fondo.png" alt="logo-catorce" />
         </a>
         </div>
-        <nav>
+        <!--menu hamburguesa-->
+        <button class="menu-btn" aria-label="Abrir menú">
+            <span class="menu-btn_bar"></span>
+            <span class="menu-btn_bar"></span>
+            <span class="menu-btn_bar"></span>
+        </button>
+        <nav class=nav-menu>
             <a href="../index.html">Inicio</a>
             <a href="../templates/destinos.html">Destinos</a>
             <a href="../templates/galería.html">Galería</a>
