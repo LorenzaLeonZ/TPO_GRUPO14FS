@@ -1,16 +1,20 @@
 
-  :root {
-    --color-blanco:#ffffff;
-    --color-negro:#0a0909;
-    --color-verde:#033503;
-    --color-naranja:#af3403;
+:root {
+  --color-blanco:#ffffff;
+  --color-negro:#0a0909;
+  --color-verde:#033503;
+  --color-naranja:#af3403;
+}
+  
+  * {
+    margin: 0;
+    padding: 0;
   }
   
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f9f6f6;
-  box-sizing: border-box;
-
+  background-color:#fbd4c587;
+  box-sizing:border-box;
 }
 
 #formulario{
@@ -37,8 +41,8 @@ h1 {
 }
 
 h2 {
-  color:#076307;
-  font-size: 1.3rem;
+  color:rgb(58, 99, 81);
+  font-size: 1.5rem;
   padding-left: 0.1rem;
   text-align: center;
   padding-right: 1.5rem;
@@ -114,7 +118,7 @@ input[type="reset"] {
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-    background-color:#076307;
+    background-color:rgb(58, 99, 81);
     color: #ffffff;
     margin-bottom: 20px;
 }
