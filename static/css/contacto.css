@@ -1,99 +1,243 @@
 
-body {
-  background-color: #e1c2e3; /* Cambia #f0f0f0 por el color que desees */
+  :root {
+    --color-blanco:#ffffff;
+    --color-negro:#0a0909;
+    --color-verde:#033503;
+    --color-naranja:#af3403;
+  }
+  
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f6f6;
+  box-sizing: border-box;
+
 }
 
-
- /* Estilos para el contenedor del formulario */
-
-#formulario {
-  max-width: 50rem;
-  margin-top: 1.5rem;
-  margin-left: 15rem;
-  margin-bottom: 1.5rem;
-  padding:1rem;
-  border: 1px solid #3c0134; /* Agrega el borde */
-  border-radius: 10px; /* Hace que las esquinas del borde sean redondeadas */
-  background-color: #b964c0;
-  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+#formulario{
+  color:#af3403;
+  font-size: 0.8rem;
+  border-radius:0.6rem;
+  padding: 3.2rem;
+  width:90%;
+  max-width:31rem;
+  margin: auto;
+  background-color:#fbf7f7;
+  box-shadow: 0 0 2.5rem#0a0909; 
+  background-image:url(../imgs/passport-2714675_1280.jpg);
 }
 
 h1 {
   color: #0a0909;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
-  padding-left:8rem;
+  text-align: center;
+  padding-right:6.25rem;
+  margin-top: 2rem;
+  
 }
 
 h2 {
-  color: #0a0909;
-  font-size: 1.5rem;
-  padding-left: 3rem;
+  color:#076307;
+  font-size: 1.3rem;
+  padding-left: 0.1rem;
+  text-align: center;
+  padding-right: 1.5rem;
+  margin-bottom:3rem;
+  font-weight:bold;
+
 }
 
-/* Estilos para los campos de entrada */
+h4{
+  font-size:0.9rem;
+  font-variant: small-caps;
+  font: weight 100px;
+  color: #af3403;
+}
+
 input[type="text"],
 input[type="tel"],
 input[type="email"],
+input[type="correo"],
 textarea {
-    width: calc(100% - 20px); /* Ancho máximo igual al 100% del contenedor menos 20px de margen */
-    max-width: 750px; /* Ancho máximo absoluto */
+    width: calc(100% - 40px); /* Ancho máximo igual al 100% del contenedor menos 20px de margen */
+    max-width: 750px; /* Ancho máximo absoluto*/
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+    border: 1.5px solid #033503;
+    border-radius: 10px;
+    font-size: 0.8rem;
     box-sizing: border-box; /* Para incluir el padding y el borde en el cálculo del ancho */
+    background-color: #faf8fc;
+    align-items: center;
+}
+#nombre{
+   margin-top:5px;
+}
+#apellido{
+  margin-top:5px;
+}
+#telefono{
+  margin-top:5px;
+}
+#correo{
+  margin-top:5px;
+}
+fieldset{
+  margin-top:0.2rem;
+  padding-left:0.9rem;
+  margin-left:0.1rem;
+  margin-right:0.1rem;
+  border-radius:0.40rem;
+  background-color:#ffffff;
+  color:#0a0909;
 }
 
 input[type="submit"],
 input[type="reset"] {
     width: 100%; /* Hace que los botones ocupen todo el ancho del contenedor */
-    background-color: #ebcced;
-    color:  #0a0909;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px; /* Añade un espacio superior para separar los botones */
+    background-color: #ffffff;
+    border:none;
+    outline:none;
+    padding:10px 20px;
+    font-size:1rem;
+    cursor:pointer;
+    border-radius:0.3rem;
+    margin-top: 10px; /* Añade un espacio superior para separar los botones*/
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+    border:border solid #ffffff;
+    cursor:pointer;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
 }
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-    background-color: #38ef56;
+    background-color:#076307;
     color: #ffffff;
+    margin-bottom: 20px;
+}
+input[type="file"]:hover{
+  background-color:#f5936d;
+  border-color:#f58052 ;
 }
 
-/* Estilos para el label */
-#mns label {
-  position:relative /* Establecemos posición relativa */ /*REVISAR SI TRABAJAR CON LAS PROPIEDADES O NO, ver cómo afecta al título de mensaje cuando se le agrega el ;*/
-  top:30px; /* Colocamos el label 30px arriba del contenedor */
-  left:50%; /* Lo centramos horizontalmente */
-  transform: translateX(-50%); /* Lo ajustamos al centro */
-}
 #mns{
-  font-size: 20px;
-  color:#0a0909
+  font-size: 1rem;
+  color:#0a0909;
+  margin-right: 8rem;
+  position:relative;
+  font-weight: bold; 
+}
+
+#mns textarea{
+  margin-top: 1.2rem;
+  border-radius:0.20rem;
+  border-color:#033503;
+  max-width: 31rem;
+  max-height: 18rem;
+  margin-top:0.5rem ;
 }
 
  /*FOOTER  
 =============================*/
-footer{
-    background-color: rgba(243,73, 11);
-    text-align: center;
-    margin-top: 1rem;
-    padding-top: 1rem;
-    padding-bottom:0.3rem;
-    
+
+footer {
+  background-color: rgb(20, 19, 19);
+  text-align: center;
+  padding: 1.5rem 1.5rem 0.8rem 1.5rem; /* Agregar un poco de espacio alrededor del contenido */
+}
+
+.icons {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1.5px; /* Espacio entre los íconos */
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 0.5rem;
+} 
+
+
+/* Medias queries para header y footer-Falta media queries para main */
+
+/* Para dispositivos móviles (celular) */
+
+@media (max-width: 600px) {
+  header {
+      flex-direction: column;
+      text-align: center;
+      flex-wrap: wrap;
   }
-  .icons {
-    width: 2rem;
-    height: 2rem;
-    padding-inline:2rem;
-    padding-bottom: 0.1rem;
+
+  nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
   }
-  p {
-    font-size: 1rem;
-    font-weight: 0.5rem;
+ 
+  nav a {
+      display: block;
+      margin: 0.5em 0;
+      flex-wrap: wrap;
   }
+   .column {
+    flex: 1 1 100%;
+  }
+
+   .footer-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .footer-content .column {
+      width: 100%;
+      margin: 0.5em 0;
+  } 
+  .formulario{
+    width: 90%;
+  }
+  h1{
+    padding-left: 2rem;
+  }
+
+}
+
+/* Para tabletas */
+@media (min-width: 601px) and (max-width: 1024px) {
+  
+  .footer-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .footer-content .column {
+      width: 100%;
+      margin: 0.5em 0;
+  } 
+  .formulario{
+    width: 70%;
+  }
+h1{
+  padding-left: 4rem ;
+}
+
+}
+
+/*Para PC escritorio */
+@media (min-width: 1025px) {
+  .column {
+      flex: 1 1 30%;
+  }
+  .formulario{
+    width: 50%;
+  }
+  h1{
+    padding-left: 6rem;
+  }
+
+}

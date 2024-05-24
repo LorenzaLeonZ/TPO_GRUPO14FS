@@ -65,7 +65,9 @@ function generateCards(destinos) {
         }
         cards += `
         <div class="card">
+            
             <div class="img-container">
+                <h4 class=title-card>${e.name}</h4>
                 <img class="img-card" src="${e.image}" alt="">
             </div>
             <div class="info-card">
@@ -73,12 +75,19 @@ function generateCards(destinos) {
                     ${iconsHtml}
                 </div>
                 <div class="offer-card">
-                    <div class="date-card">${e.departure}</div>
-                    <div class="price-card">${e.price}</div>
+                    <div class="date-card">
+                        <span>Salida:</span>
+                        <time>${e.departure}</time>
+                    </div>
+
+                    <div class="price-card">
+                        <span>Precio:</span>
+                        <data value=${e.price}>$${e.price}</data>
+                    </div>
                 </div>
                 <div class="button-card">
-                    <button>Ver Detalles</button>
-                    <button>RESERVÁ AHORA</button>
+                    <button class="btn-detalles">Ver Detalles</button>
+                    <button class="btn-reservar">RESERVÁ AHORA</button>
                 </div>
             </div>
         </div>`;

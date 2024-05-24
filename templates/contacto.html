@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" href="/static/imgs/logonuevo_1.jpeg" type="image/png" />
+  <link rel="icon" href="../static/imgs/logonuevo_1.jpeg" type="image/png" />
   <link rel="stylesheet" href="../static/css/index.css">
   <link rel="stylesheet" href="../static/css/contacto.css" />
   <title>Contacto | Catorce Viajes</title>
@@ -15,111 +15,112 @@
   <header class="header">
     
   </header>
+  <div class="content"><!--contenedor del espacio del header--></div>
   <main>
+    <h1>¿Necesitas ayuda para organizar tu viaje?</h1>
+    <h2>Completá el formulario y nos contactamos con vos </h2>
     <section id="formulario">
-      <h1>¿Necesitas ayuda para organizar tu viaje?</h1>
-      <h2>Completá el formulario y nos ponemos en contacto con vos.</h2>
-      <form action="">
-        <fieldset>
-          <legend>
-            <h3>Datos personales:</h3>
-          </legend>
-          <br />
-          <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="name" id="nombre" placeholder="Ingrese su nombre..." required />
-          </div>
-          <br />
-          <div>
-            <label for="apellido">Apellido:</label>
-            <input type="text" name="surname" id="apellido" maxlength="20" placeholder="Ingrese su apellido..."
-              required />
-          </div>
-          <br />
-          <div>
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" name="telefono" id="telefono" placeholder="Ingrese su número..." required />
-          </div>
-          <br />
-          <div>
-            <label for="correo">Email:</label>
-            <input type="correo" name="correo" id="correo" placeholder="Ingrese su mail..." required />
-          </div>
-          <br />
-        </fieldset>
-        <fieldset>
-          <legend>
-            <h3>Datos sobre el viaje:</h3>
-          </legend>
-          <div>
-            <p>Cantidad de personas:</p>
-            <label for="persona-may">Mayores de 18 años:</label>
-            <select name="persona-may" id="persona-may">
-              <option value="persona">1 persona</option>
-              <option value="persona">2 personas</option>
-              <option value="persona">3 personas</option>
-              <option value="persona">más de 3 personas</option>
-            </select>
-          </div>
-          <div>
-            <label for="persona-men">Menores de 18 años:</label>
-            <select name="persona-men" id="persona-men">
-              <option value="persona">ninguna</option>
-              <option value="persona">1 persona</option>
-              <option value="persona">2 personas</option>
-              <option value="persona">más de 2 personas</option>
-            </select>
-          </div>
-          <br>
-          <div>
-            <p>Destino/s de interés:</p>
-            <input type="checkbox" name="paises" id="nuestropais" value="nuestropais" />
-            <label for="nuestropais">Argentina </label>
-            <input type="checkbox" name="paises" id="paiseseuro" value="html" />
-            <label for="paiseseuro">Países europeos </label>
-            <input type="checkbox" name=" paises" id="paisesamericasur" value="paisesamericasur" />
-            <label for="paisesamericasur">América del Sur y el Caribe</label>
-            <input type="checkbox" name="paises" id="paisesamericanor" value="paisesamericanor" />
-            <label for="paisesamericanor">América del norte</label>
-            <input type="checkbox" name="paises" id="paisesamericanor" value="paisesasia" />
-            <label for="paisesasia">Asia</label>
-            <input type="checkbox" name="paises" id="otrospaises" value="otrospaises" />
-            <label for="otrospaises">Otro</label>
-          </div>
-          <br>
-          <br>
-          <div>
-            <label for="file">Envie archivo con itinerarios deseados:</label>
-            <input type="file" name="file" id="file">
-          </div>
-          <br>
-        </fieldset>
-        <br>
-        <div id="mns">
-          <label for="mensaje"><b>Mensaje:</b></label>
-          <textarea id="mensaje" name="mensaje" id="mensaje" cols="30" rows="10" maxlength="200"
-            placeholder="Escriba su mensaje..." required></textarea>
+    <form action="">
+      <fieldset>
+        <legend>
+          <h3><b>Datos personales:</b></h3>
+        </legend>
+        <br />
+        <div>
+          <label for="nombre"><b>Nombre:</b></label>
+          <input type="text" name="name" id="nombre" placeholder="Ingresa tu nombre..." required />
         </div>
         <br />
         <div>
-          <input type="submit" value="Enviar" />
+          <label for="apellido"><b>Apellido:</b></label>
+          <input type="text" name="surname" id="apellido" maxlength="20" placeholder="Ingresa tu apellido..."
+            required />
         </div>
-
+        <br />
         <div>
-          <input type="reset" value="Borrar" />
-
+          <label for="telefono"><b>Teléfono:</b></label>
+          <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu número..." required />
         </div>
-      </form>
-    </section>
+        <br />
+        <div>
+          <label for="correo"><b>Email:</b></label>
+          <input type="correo" name="correo" id="correo" placeholder="Ingresa tu mail..." required />
+        </div>
+        <br>
+        <legend>
+          <h3><b>Datos sobre el viaje:</b></h3>
+        </legend>
+        <br>
+        <div>
+          <h4><b>Cantidad de personas:</b></h4>
+          <br>
+          <label for="persona-may">Mayores de 18 años:</label>
+          <select name="persona-may" id="persona-may">
+            <option value="persona">1 persona</option>
+            <option value="persona">2 personas</option>
+            <option value="persona">3 personas</option>
+            <option value="persona">más de 3 personas</option>
+          </select>
+        </div>
+        <div>
+          <label for="persona-men">Menores de 18 años:</label>
+          <select name="persona-men" id="persona-men">
+            <option value="persona">ninguna</option>
+            <option value="persona">1 persona</option>
+            <option value="persona">2 personas</option>
+            <option value="persona">más de 2 personas</option>
+          </select>
+        </div>
+        <br>
+          <h3><b>Destino/s de interés:</b></h3>
+          <br>
+          <div>
+          <input type="checkbox" name="paises" id="nuestropais" value="nuestropais" />
+          <label for="nuestropais">Argentina </label></div>
+          <div> 
+          <input type="checkbox" name="paises" id="paiseseuro" value="html" />
+          <label for="paiseseuro">Países europeos </label></div>
+          <div>
+          <input type="checkbox" name=" paises" id="paisesamericasur" value="paisesamericasur" />
+          <label for="paisesamericasur">América del Sur y el Caribe</label> <div>
+          <div>
+          <input type="checkbox" name="paises" id="paisesamericanor" value="paisesamericanor" />
+          <label for="paisesamericanor">América del norte</label></div>
+          <div>
+          <input type="checkbox" name="paises" id="paisesamericanor" value="paisesasia" />
+          <label for="paisesasia">Asia</label></div>
+          <div>
+          <input type="checkbox" name="paises" id="otrospaises" value="otrospaises" />
+          <label for="otrospaises">Otro</label></div>
+        <br>
+        <div>
+          <label for="file"><h4><b>Envíe archivo con itinerarios deseados:</b></h4></label><br>
+          <input type="file" name="file" id="file"></div>
+        <br>
+     
+      <br>
+      <div id="mns">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" id="mensaje" cols="30" rows="10" maxlength="200"
+          placeholder="Escriba su mensaje..." required></textarea>
+      </div>
+    </fieldset>
+      <br />
+      <div>
+        <input type="submit" value="Enviar" />
+      </div>
+      <div>
+        <input type="reset" value="Borrar" />
+      </div>
+    </form>
+  </section>
   </main>
   <!-- Pie de página -->
 
-  <footer>
-    
-  </footer>
+  <footer> </footer>
 
-  <script src="/js/header.js"></script>
-  <script src="/js/footer.js"></script>
+  <script src="../js/header.js"></script>
+  <script src="../js/footer.js"></script>
 </body>
 
 </html>
