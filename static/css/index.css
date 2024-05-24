@@ -93,11 +93,7 @@ nav a {
 }
 
 nav a:hover {
-<<<<<<< HEAD
   color:  rgb(228, 130, 87); ; /* Cambia el color al pasar el mouse por encima */
-=======
-  color: rgb(228, 130, 87); /* Cambia el color al pasar el mouse por encima */
->>>>>>> 22d6333a036908eede5e3308396364461df11d81
   text-decoration: none;
 }
 
@@ -241,11 +237,7 @@ a {
 }
 
 a:hover {
-<<<<<<< HEAD
   color: rgb(228, 130, 87);  /* Color rojo al pasar el mouse sobre el enlace */
-=======
-  color: rgb(228, 130, 87) /* Color rojo al pasar el mouse sobre el enlace */
->>>>>>> 22d6333a036908eede5e3308396364461df11d81
 }
 
 .column {
