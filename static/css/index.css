@@ -107,6 +107,28 @@ nav a:hover {
   height: 100vh;
 }
 
+
+#seccion-somos {
+  background-color: rgb(131, 133, 133);
+  background-size:auto;
+  background-position: center;
+  text-align:left;
+  color: rgb(63, 63, 63);
+  height: 100vh;
+  padding: 20px;
+  
+}
+
+.texto-somos{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  text-align: :left;
+  
+
+}
+
 .titulo-subtit {
   margin: 0;
   padding: 6.15rem;
