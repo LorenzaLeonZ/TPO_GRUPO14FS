@@ -157,12 +157,19 @@ input[type="file"]:hover{
     width: 70%;
     
   }
+  .formulario{
+    width: 95%;
+  }
   .formulario fieldset{
     margin:0;
     padding: 0.7rem;
+    min-width: 100%;
   }
   #mns{
-    margin-right: 3rem;
+    margin-right: 0;
+  }
+  #file{
+    width: 136px;
   }
 }
 
