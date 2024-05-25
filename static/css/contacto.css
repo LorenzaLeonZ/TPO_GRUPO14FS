@@ -1,6 +1,6 @@
 
 :root {
-  --color-blanco:#ffffff;
+  --color-blanco:#faf8fc;
   --color-negro:#0a0909;
   --color-verde:#033503;
   --color-naranja:#af3403;
@@ -12,7 +12,7 @@
   
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-color:#faf8fc;
+  background-color:var(--color-blanco);
   box-sizing:border-box;
 }
 
@@ -35,7 +35,6 @@ h1 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   text-align: center;
-  padding-right:6.25rem;
   margin-top: 2rem;
   
 }
@@ -45,7 +44,6 @@ h2 {
   font-size: 1.5rem;
   padding-left: 0.1rem;
   text-align: center;
-  padding-right: 1.5rem;
   margin-bottom:3rem;
   margin-top:3rem ;
   font-weight:bold;
@@ -72,7 +70,7 @@ textarea {
     border-radius: 10px;
     font-size: 0.8rem;
     box-sizing: border-box; /* Para incluir el padding y el borde en el cálculo del ancho */
-    background-color: #faf8fc;
+    background-color: var(--color-blanco);
     align-items: center;
 }
 
@@ -123,40 +121,49 @@ fieldset{
   margin-right:0.1rem;
   border-radius:0.40rem;
   background-color:#ffffff;
-  color:#0a0909;
+  color:var(--color-negro);
   padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 input[type="submit"],
 input[type="reset"] {
+    display: inline-block;
     width: 100%; /* Hace que los botones ocupen todo el ancho del contenedor */
-    background-color: #ffffff;
     border:none;
     outline:none;
     padding:10px 20px;
-    font-size:1rem;
     cursor:pointer;
     border-radius:0.3rem;
     margin-top: 10px; /* Añade un espacio superior para separar los botones*/
     margin-bottom: 5px;
-    margin-bottom: 5px;
-    border:border solid #ffffff;
-    cursor:pointer;
-    display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
+    font-weight: 700;
 }
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-    background-color:rgb(58, 99, 81);
+  filter: brightness(0.6);
     color: #ffffff;
-    margin-bottom: 20px;
 }
+
+input[type="submit"]:active,
+input[type="reset"]:active{
+  transform: scale(0.95);
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.15);
+}
+
+#enviar{
+  margin-top: 2rem;
+  background-color: var(--color-verde-4);
+}
+#borrar{
+  background-color: var(--color-naranja-1);
+}
+
 input[type="file"]:hover{
-  background-color:#f5936d;
-  border-color:#f58052 ;
+  background-color:var(--color-naranja-1);
+  border-color:var(--color-naranja-1);
 }
 
 #mns{
@@ -170,7 +177,7 @@ input[type="file"]:hover{
 #mns textarea{
   margin-top: 1rem;
   border-radius:0.1rem;
-  border-color:#033503;
+  border-color:var(--color-verde);
   max-width: 31rem;
   max-height: 18rem;
   margin-bottom:1rem;
@@ -193,6 +200,9 @@ input[type="file"]:hover{
     margin:0;
     padding: 0.7rem;
     min-width: 100%;
+  }
+  #enviar{
+    margin-top: 0;
   }
   #mns{
     margin-right: 0;

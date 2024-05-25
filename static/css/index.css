@@ -1,6 +1,6 @@
 :root {
   --color-primario: rgb(255, 72, 0);
-  --color-fondo-header: var(--color-primario);
+  --color-fondo-header: rgb(51, 51, 51);
   --color-texto-header: rgb(255, 255, 255);
   --color-amarillo-body: rgba(237, 201, 40, 0.876);
   --color-naranja-body: rgba(237, 138, 40, 0.876);
@@ -295,7 +295,7 @@ footer {
   margin-top: 1rem;
   padding-top: 1rem;
   padding-bottom: 0.3rem;
-  background-color: #333;
+  background-color: rgb(51, 51, 51);
   color: #f5f1f1;
   padding: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
