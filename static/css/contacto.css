@@ -17,7 +17,7 @@ body{
 }
 
 #formulario{
-  color:#af3403;
+  /* color:#af3403; */
   font-size: 0.8rem;
   border-radius:0.6rem;
   padding: 3.2rem;
@@ -75,18 +75,47 @@ textarea {
     background-color: #faf8fc;
     align-items: center;
 }
-#nombre{
-   margin-top:5px;
+
+.formulario_input{
+  margin-top: 5px;
+  transition: .3 all ease;
 }
-#apellido{
-  margin-top:5px;
+.formulario_input:focus{
+  border: 3px solid rgb(0, 117, 255);
+  box-shadow: 3px 0px 20px -10px rgb(33, 33, 33);
+  outline: none;
 }
-#telefono{
-  margin-top:5px;
+
+/* ESTILOS DE VALIDACION DE FORMULARIO
+=========================================*/
+.formulario_input-error{
+  font-size: 0.7rem;
+  margin: 0;
+  /* color: rgb(187, 41, 41); */
+  display: none;
 }
-#correo{
-  margin-top:5px;
+.formulario_input-error-active{
+  display: block;
 }
+
+.formulario_grupo-incorrecto .formulario_label{
+  color:rgb(187, 41, 41);
+}
+.formulario_grupo-incorrecto .formulario_input{
+  border: 3px solid rgb(187, 41, 41);
+}
+
+.formulario_mensaje-exito{
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 700;
+  color:green;
+  display: none;
+}
+.formulario_mensaje-exito-active{
+  display: block;
+}
+
 fieldset{
   margin-top:0.2rem;
   padding-left:0.9rem;

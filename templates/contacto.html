@@ -24,25 +24,28 @@
         <fieldset>
           <h3>Datos personales:</h3>
           <br />
-          <div>
-            <label for="nombre"><b>Nombre:</b></label>
-            <input type="text" name="name" id="nombre" placeholder="Ingresa tu nombre..." required />
+          <div class="formulario_grupo" id="grupo_nombre">
+            <label class="formulario_label" for="nombre"><b>Nombre:</b></label>
+            <input class="formulario_input" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre..." required />
+            <p class="formulario_input-error">El nombre es obligatorio y solo puede contener letras</p>
           </div>
           <br />
-          <div>
-            <label for="apellido"><b>Apellido:</b></label>
-            <input type="text" name="surname" id="apellido" maxlength="20" placeholder="Ingresa tu apellido..."
-              required />
+          <div class="formulario_grupo" id="grupo_apellido">
+            <label class="formulario_label" for="apellido"><b>Apellido:</b></label>
+            <input class="formulario_input" type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido..."required />
+            <p class="formulario_input-error">El apellido es obligatorio y solo puede contener letras</p>
           </div>
           <br />
-          <div>
-            <label for="telefono"><b>Teléfono:</b></label>
-            <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu número..." required />
+          <div class="formulario_grupo" id="grupo_telefono">
+            <label class="formulario_label" for="telefono"><b>Teléfono:</b></label>
+            <input class="formulario_input" type="tel" name="telefono" id="telefono" placeholder="Ingresa tu número..." maxlength="10" required />
+            <p class="formulario_input-error">El teléfono solo puede contener números y el máximo son 10 dígitos</p>
           </div>
           <br />
-          <div>
-            <label for="correo"><b>Email:</b></label>
-            <input type="correo" name="correo" id="correo" placeholder="Ingresa tu mail..." required />
+          <div class="formulario_grupo" id="grupo_correo">
+            <label class="formulario_label" for="correo"><b>Email:</b></label>
+            <input class="formulario_input" type="email" name="correo" id="correo" placeholder="Ingresa tu mail..." required />
+            <p class="formulario_input-error">El correo solo puede contener letras, números, puntos, guiones y guión bajo</p>
           </div>
           <br>
           <h3>Datos sobre el viaje:</h3>
@@ -117,6 +120,7 @@
         <div>
           <input type="reset" value="Borrar" />
         </div>
+        <p class="formulario_mensaje-exito" id="formulario_mensaje-exito">¡Formulario enviado con éxito! ¡Muchas gracias!</p>
       </form>
     </section>
   </main>
