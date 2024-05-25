@@ -166,9 +166,12 @@ nav a:hover {
   flex-direction: column;
 }
 
+#seccion-somos h2 {
+  text-align: center;
+}
+
 .texto-somos {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 300;
   font-style: normal;
   color: white;
   text-align: center;
@@ -202,6 +205,7 @@ nav a:hover {
 .promo-title {
   color: #333;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .promo-form {
@@ -310,7 +314,6 @@ footer {
 
 p {
   font-size: 1rem;
-  font-weight: 0.5rem;
 }
 
 .footer-content {
@@ -321,6 +324,9 @@ p {
   text-align: left;
 }
 
+.seguinos {
+  margin: 20px 0;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -441,7 +447,7 @@ a:hover {
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.9);
     position: absolute;
     top: 115px;
     transform: translateY(-100%);

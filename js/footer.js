@@ -10,13 +10,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 <ul><a href="../templates/destinos.html">Destinos</a></ul>
                 <ul><a href="../templates/galería.html">Galeria</a></ul>
                 <ul><a href="../templates/contacto.html">Contacto</a></ul>
-                <br>
-                <br>
-                <h3>Seguinos en</h3>
-                <br>
-                <img class="icons" src="../static/imgs/gorjeo_blanco.png" alt="twitter" color="white"/>
-                <img class="icons" src="../static/imgs/facebook_blanco.png" alt="facebook" color="white"/>
-                <img class="icons" src="../static/imgs/instagram_blanco.png" alt="instagram"color= "white" />
+                
+                <h3 class="seguinos">Seguinos en</h3>
+                
+                <a href="https://x.com/"><img class="icons" src="../static/imgs/gorjeo_blanco.png" alt="twitter"/></a>
+        <a href="https://web.facebook.com/"><img class="icons" src="../static/imgs/facebook_blanco.png" alt="facebook"/></a>
+        <a href="https://www.instagram.com/"><img class="icons" src="../static/imgs/instagram_blanco.png" alt="instagram"/></a>
 
             </div>
 

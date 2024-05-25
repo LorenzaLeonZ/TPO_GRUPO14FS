@@ -58,8 +58,8 @@ function generateCards(destinos) {
     let cards = "";
     for (let e of destinos) {
         let iconsHtml = "";
-        if(e.icons){
-            for (let icon of e.icons){
+        if (e.icons) {
+            for (let icon of e.icons) {
                 iconsHtml += `<img class="icon-card" src="${icon}" alt="icono">`
             }
         }
@@ -100,5 +100,5 @@ let cardsNac = generateCards(dataDestinosNac);
 let cardsInter = generateCards(dataDestinosInter);
 
 //inserta las tarjetas generadas de las variables en el contenedor de cada sección que corresponde
-document.querySelectorAll("#viajes-nac .cards-container").forEach(container => {container.innerHTML = cardsNac;})
-document.querySelectorAll("#viajes-inter .cards-container").forEach(container => {container.innerHTML = cardsInter;})
+document.querySelectorAll("#viajes-nac .cards-container").forEach(container => { container.innerHTML = cardsNac; })
+document.querySelectorAll("#viajes-inter .cards-container").forEach(container => { container.innerHTML = cardsInter; })
