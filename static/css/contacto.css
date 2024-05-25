@@ -27,6 +27,7 @@ body{
   background-color:#fbf7f7;
   box-shadow: 0 0 2.5rem#0a0909; 
   background-image:url(../imgs/passport-2714675_1280.jpg);
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -145,5 +146,23 @@ input[type="file"]:hover{
   max-height: 18rem;
   margin-bottom:1rem;
  
+}
+
+@media (max-width: 600px){
+  main h1, h2{
+    margin:7%;
+    padding: 0;
+  }
+  #formulario{
+    width: 70%;
+    
+  }
+  .formulario fieldset{
+    margin:0;
+    padding: 0.7rem;
+  }
+  #mns{
+    margin-right: 3rem;
+  }
 }
 

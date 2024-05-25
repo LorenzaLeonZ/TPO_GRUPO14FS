@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,103 +13,112 @@
 
 <body>
   <header class="header">
-    
+
   </header>
   <div class="content"><!--contenedor del espacio del header--></div>
   <main>
     <h1>¿Necesitas ayuda para organizar tu viaje?</h1>
     <h2>Completá el formulario y nos contactamos con vos </h2>
     <section id="formulario">
-    <form action="">
-    <fieldset>
+      <form action="" class="formulario" id="formulario_contacto">
+        <fieldset>
           <h3>Datos personales:</h3>
-        <br />
-        <div>
-          <label for="nombre"><b>Nombre:</b></label>
-          <input type="text" name="name" id="nombre" placeholder="Ingresa tu nombre..." required />
-        </div>
-        <br />
-        <div>
-          <label for="apellido"><b>Apellido:</b></label>
-          <input type="text" name="surname" id="apellido" maxlength="20" placeholder="Ingresa tu apellido..."
-            required />
-        </div>
-        <br />
-        <div>
-          <label for="telefono"><b>Teléfono:</b></label>
-          <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu número..." required />
-        </div>
-        <br />
-        <div>
-          <label for="correo"><b>Email:</b></label>
-          <input type="correo" name="correo" id="correo" placeholder="Ingresa tu mail..." required />
-        </div>
-        <br>
-          <h3>Datos sobre el viaje:</h3>
-        <br>
-        <div>
-          <h4>Cantidad de personas:</h4>
+          <br />
+          <div>
+            <label for="nombre"><b>Nombre:</b></label>
+            <input type="text" name="name" id="nombre" placeholder="Ingresa tu nombre..." required />
+          </div>
+          <br />
+          <div>
+            <label for="apellido"><b>Apellido:</b></label>
+            <input type="text" name="surname" id="apellido" maxlength="20" placeholder="Ingresa tu apellido..."
+              required />
+          </div>
+          <br />
+          <div>
+            <label for="telefono"><b>Teléfono:</b></label>
+            <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu número..." required />
+          </div>
+          <br />
+          <div>
+            <label for="correo"><b>Email:</b></label>
+            <input type="correo" name="correo" id="correo" placeholder="Ingresa tu mail..." required />
+          </div>
           <br>
-          <label for="persona-may">Mayores de 18 años:</label>
-          <select name="persona-may" id="persona-may">
-            <option value="persona">1 persona</option>
-            <option value="persona">2 personas</option>
-            <option value="persona">3 personas</option>
-            <option value="persona">más de 3 personas</option>
-          </select>
-        </div>
-        <div>
-          <label for="persona-men">Menores de 18 años:</label>
-          <select name="persona-men" id="persona-men">
-            <option value="persona">ninguna</option>
-            <option value="persona">1 persona</option>
-            <option value="persona">2 personas</option>
-            <option value="persona">más de 2 personas</option>
-          </select>
-        </div>
-        <br>
+          <h3>Datos sobre el viaje:</h3>
+          <br>
+          <div>
+            <h4>Cantidad de personas:</h4>
+            <br>
+            <label for="persona-may">Mayores de 18 años:</label>
+            <select name="persona-may" id="persona-may">
+              <option value="persona">1 persona</option>
+              <option value="persona">2 personas</option>
+              <option value="persona">3 personas</option>
+              <option value="persona">más de 3 personas</option>
+            </select>
+          </div>
+          <div>
+            <label for="persona-men">Menores de 18 años:</label>
+            <select name="persona-men" id="persona-men">
+              <option value="persona">ninguna</option>
+              <option value="persona">1 persona</option>
+              <option value="persona">2 personas</option>
+              <option value="persona">más de 2 personas</option>
+            </select>
+          </div>
+          <br>
           <h3>Destino/s de interés:</h3>
           <br>
           <div>
-          <input type="checkbox" name="paises" id="nuestropais" value="nuestropais" />
-          <label for="nuestropais">Argentina </label></div>
-          <div> 
-          <input type="checkbox" name="paises" id="paiseseuro" value="html" />
-          <label for="paiseseuro">Países europeos </label></div>
+            <input type="checkbox" name="paises" id="nuestropais" value="nuestropais" />
+            <label for="nuestropais">Argentina </label>
+          </div>
           <div>
-          <input type="checkbox" name=" paises" id="paisesamericasur" value="paisesamericasur" />
-          <label for="paisesamericasur">América del Sur y el Caribe</label> <div>
+            <input type="checkbox" name="paises" id="paiseseuro" value="html" />
+            <label for="paiseseuro">Países europeos </label>
+          </div>
           <div>
-          <input type="checkbox" name="paises" id="paisesamericanor" value="paisesamericanor" />
-          <label for="paisesamericanor">América del norte</label></div>
-          <div>
-          <input type="checkbox" name="paises" id="paisesamericanor" value="paisesasia" />
-          <label for="paisesasia">Asia</label></div>
-          <div>
-          <input type="checkbox" name="paises" id="otrospaises" value="otrospaises" />
-          <label for="otrospaises">Otro</label></div>
-        <br>
+            <input type="checkbox" name=" paises" id="paisesamericasur" value="paisesamericasur" />
+            <label for="paisesamericasur">América del Sur y el Caribe</label>
+            <div>
+              <div>
+                <input type="checkbox" name="paises" id="paisesamericanor" value="paisesamericanor" />
+                <label for="paisesamericanor">América del norte</label>
+              </div>
+              <div>
+                <input type="checkbox" name="paises" id="paisesamericanor" value="paisesasia" />
+                <label for="paisesasia">Asia</label>
+              </div>
+              <div>
+                <input type="checkbox" name="paises" id="otrospaises" value="otrospaises" />
+                <label for="otrospaises">Otro</label>
+              </div>
+              <br>
+              <div>
+                <label for="file">
+                  <h4><b>Envíe archivo con itinerarios deseados:</b></h4>
+                </label><br>
+                <input type="file" name="file" id="file">
+              </div>
+              <br>
+
+              <br>
+              <div id="mns">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" id="mensaje" cols="30" rows="10" maxlength="200"
+                  placeholder="Escriba su mensaje..." required></textarea>
+              </div>
+        </fieldset>
+        <br />
         <div>
-          <label for="file"><h4><b>Envíe archivo con itinerarios deseados:</b></h4></label><br>
-          <input type="file" name="file" id="file"></div>
-        <br>
-     
-      <br>
-      <div id="mns">
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje" id="mensaje" cols="30" rows="10" maxlength="200"
-          placeholder="Escriba su mensaje..." required></textarea>
-      </div>
-    </fieldset>
-      <br />
-      <div>
-        <input type="submit" value="Enviar" />
-      </div>
-      <div>
-        <input type="reset" value="Borrar" />
-      </div>
-    </form>
-  </section>
+          <input type="submit" value="Enviar" />
+        </div>
+        <div>
+          <input type="reset" value="Borrar" />
+        </div>
+      </form>
+    </section>
   </main>
   <!-- Pie de página -->
 
@@ -118,6 +127,7 @@
   <script src="../js/header.js"></script>
   <script src="../js/footer.js"></script>
   <script src="../js/toggle-menu.js"></script>
+  <script src="../js/formulario.js"></script>
 </body>
 
 </html>
