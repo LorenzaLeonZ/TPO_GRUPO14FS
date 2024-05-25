@@ -5,8 +5,9 @@
   --color-amarillo-body: rgba(237, 201, 40, 0.876);
   --color-naranja-body: rgba(237, 138, 40, 0.876);
   --color-logo-sombra: rgba(219, 128, 25, 0.5);
+  /*color usado en formulario*/
+  --color-verde-4: rgb(5, 82, 48);
   /*paleta de colores cards*/
-
   --color-verde-4: rgb(58, 99, 81);
   --color-naranja-1: rgb(228, 130, 87);
   --color-beige-2: rgb(242, 237, 215);
