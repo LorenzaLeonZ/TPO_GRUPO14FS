@@ -54,7 +54,7 @@ h4{
 input[type="text"],
 input[type="tel"],
 input[type="email"],
-input[type="correo"],
+input[type="email"],
 textarea {
     width: calc(100% - 40px); /* Ancho máximo igual al 100% del contenedor menos 20px de margen */
     max-width: 750px; /* Ancho máximo absoluto*/
@@ -183,15 +183,16 @@ input[type="file"]:hover{
     margin:7%;
     padding: 0;
   }
-  #formulario{
-    width: 70%;
-    
+
+  #formulario, .formulario{
+    width: 100%;
+    min-width: 320px;
   }
-  .formulario{
-    width: 95%;
+  #formulario{
+    padding: 1.5rem;
   }
   .formulario fieldset{
-    margin:0;
+    margin:2rem 0 1.5rem 0;
     padding: 0.7rem;
     min-width: 100%;
   }

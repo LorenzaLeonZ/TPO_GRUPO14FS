@@ -510,6 +510,9 @@ a:hover {
 
 /* Estilos para tabletas */
 @media (min-width: 601px) and (max-width: 1024px) {
+  main {
+    margin-top: -18px; /*ajuste de margen por espacio entre hero image y header*/
+  }
   .image {
     flex: 1 1 calc(50% - 1em);
   }
