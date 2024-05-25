@@ -324,8 +324,21 @@ p {
   text-align: left;
 }
 
+dl dt {
+  margin-top: 25px; /* Ajusta el valor según sea necesario */
+}
+
+dl dd {
+  margin-bottom: 5px; /* Ajusta el valor según sea necesario */
+}
+
+
 .seguinos {
   margin: 20px 0;
+}
+
+ul {
+  list-style-type: none;
 }
 a {
   text-decoration: none;
@@ -395,6 +408,13 @@ a:hover {
   height: 100%; /* Asegura que el iframe ocupe toda la altura disponible del contenedor */
   border: 0; /* Elimina el borde del iframe */
   border-radius: 5%; /* Opcional: agrega bordes redondeados al iframe */
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #fff;
 }
 
 /* Media queries para hacer el diseño responsive */

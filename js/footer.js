@@ -6,10 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
             <!-- Columna 1 footer -->
             <div class="column">
                 <h3>Accesos</h3>
-                <ul><a href="../index.html">Inicio</a></ul>
-                <ul><a href="../templates/destinos.html">Destinos</a></ul>
-                <ul><a href="../templates/galería.html">Galeria</a></ul>
-                <ul><a href="../templates/contacto.html">Contacto</a></ul>
+                <ul>
+                  <li><a href="../index.html">Inicio</a></li>
+                  <li><a href="../templates/destinos.html">Destinos</a></li>
+                  <li><a href="../templates/galería.html">Galeria</a></li>
+                  <li><a href="../templates/contacto.html">Contacto</a></li>
+                </ul>
                 
                 <h3 class="seguinos">Seguinos en</h3>
                 
@@ -22,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <!-- Columna 2 footer -->
             <div class="column">
                 <h3>Contacto</h3>
-                 <section>
+                 <div>
                     <div>
                       <dl>
                         <dt>
@@ -31,14 +33,14 @@ document.addEventListener("DOMContentLoaded", function () {
                         </dt>
                         <dd>Lunes a Sábados</dd>
                         <dd>De 9 a 12 hs y de 16 a 20 hs.</dd>
-                        <br>
+                        
                         <dt>
                           <img class="icon" src="../static/imgs/llamada-telefonica_blanco.png" alt=""/>
                           Teléfonos:
                         </dt>
                         <dd>(+54.11) 566.7184</dd>
                         <dd>(+54.11) 566.4255</dd>
-                        <br>
+                        
                         <dt>
                           <img class="icon" src="../static/imgs/correo-electronico_blanco.png"alt=""/>
                           Dirección de e-mail:
@@ -46,13 +48,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         <dd>catorce_viajes@gmail.com</dd>
                       </dl>
                     </div>
-                  </section>
+                  </div>
             </div>
-            <br>
+            
 
             <!-- Columna 3 footer -->
             <div class="column">
-                <section>
+                <div>
                     <article>
                     <h3>Donde estamos:</h3>
                     <div class="map-container">
@@ -67,15 +69,14 @@ document.addEventListener("DOMContentLoaded", function () {
                         ></iframe>
                     </div>
                     </article>
-                  </section>
+                  </div>
             </div>
     </div>
 
-    <section>
-        <br>
-        <p><strong>Diseño web desarrollado por GRUPO14FS</strong></p>
-         
-    </section>`
+    <div class="footer-bottom">
+      <p>&copy; 2024 GRUPO14FS. Todos los derechos reservados.</p>
+      <p>Diseño web desarrollado por GRUPO14FS.</p>
+    </div>`
   }
 
   const footerElement = document.querySelector("footer")
