@@ -16,6 +16,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -27,6 +28,10 @@ body {
       var(--color-naranja-body),
       var(--color-amarillo-body)
     );
+}
+
+main {
+  margin-top: -18px; /*ajuste de margen por espacio entre hero image y header*/
 }
 
 /*HEADER 
