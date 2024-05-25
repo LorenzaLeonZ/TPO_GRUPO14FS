@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <h3 class="seguinos">Seguinos en</h3>
                 
-                <a href="https://x.com/"><img class="icons" src="../static/imgs/gorjeo_blanco.png" alt="twitter"/></a>
-        <a href="https://web.facebook.com/"><img class="icons" src="../static/imgs/facebook_blanco.png" alt="facebook"/></a>
-        <a href="https://www.instagram.com/"><img class="icons" src="../static/imgs/instagram_blanco.png" alt="instagram"/></a>
+                <a href="https://x.com/"><img class="icons" src="../static/imgs/gorjeo_blanco.png" alt="twitter"></a>
+        <a href="https://web.facebook.com/"><img class="icons" src="../static/imgs/facebook_blanco.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/"><img class="icons" src="../static/imgs/instagram_blanco.png" alt="instagram"></a>
 
             </div>
 
@@ -28,21 +28,21 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div>
                       <dl>
                         <dt>
-                          <img class="icon" src="../static/imgs/reloj_blanco.png" alt="" />
+                          <img class="icon" src="../static/imgs/reloj_blanco.png" alt="" >
                            Horario de atención:
                         </dt>
                         <dd>Lunes a Sábados</dd>
                         <dd>De 9 a 12 hs y de 16 a 20 hs.</dd>
                         
                         <dt>
-                          <img class="icon" src="../static/imgs/llamada-telefonica_blanco.png" alt=""/>
+                          <img class="icon" src="../static/imgs/llamada-telefonica_blanco.png" alt="">
                           Teléfonos:
                         </dt>
                         <dd>(+54.11) 566.7184</dd>
                         <dd>(+54.11) 566.4255</dd>
                         
                         <dt>
-                          <img class="icon" src="../static/imgs/correo-electronico_blanco.png"alt=""/>
+                          <img class="icon" src="../static/imgs/correo-electronico_blanco.png"alt="">
                           Dirección de e-mail:
                         </dt>
                         <dd>catorce_viajes@gmail.com</dd>
